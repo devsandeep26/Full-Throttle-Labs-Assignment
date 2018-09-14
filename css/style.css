@@ -52,3 +52,41 @@ html,body {
         border: solid 1px rgba(255,255,255,.5);
         color: #fff;
 }
+/*=====================
+  Intro Section Rules
+=====================*/
+.intro {
+    height: calc(100vh - 80px);
+    max-height: 900px;
+    min-height: 450px;
+    padding: 15% 10% 12%;
+}
+.intro p {
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 1.75;
+        color:#033BFF;
+}
+.mbtm30 {
+    margin-bottom: 30px;
+}
+.intro h1 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #033BFF;
+    font-size: 2rem;
+
+}
+.intro .input-group {
+    display: flex;
+}
+.intro .input-group input {
+    background-color: #fff;
+    margin-right: 10px;
+    color: #000;
+}
+.form-control-own {
+    font-family: "Roboto";
+    height: 42px;
+    font-size: 0.8rem;
+}
