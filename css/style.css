@@ -6,8 +6,7 @@ html,body {
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    font-family: 'Roboto', sans-serif;;
-    background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
 }
 /*==============
   navbar rules 
@@ -22,20 +21,18 @@ html,body {
     padding: 10px;
 }
 .nav-style {
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .navbar-brand {
     float: left;
     height: 50px;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 20px;
 }
 .navbar-nav>li>a {
     font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 500;
     color: #1B4EFE;
 }
 .navbar .nav .btn {
@@ -59,7 +56,7 @@ html,body {
     height: calc(100vh - 80px);
     max-height: 900px;
     min-height: 450px;
-    padding: 15% 10% 12%;
+    padding: 5% 10% 12%;
 }
 .intro p {
         font-weight: 500;
@@ -67,14 +64,26 @@ html,body {
         line-height: 1.75;
         color:#033BFF;
 }
+.mleft30 {
+    margin-left: 30px;
+}
+.mtop100 {
+    margin-top: 100px;
+}
+.mtop30 {
+    margin-top: 30px;
+}
 .mbtm30 {
     margin-bottom: 30px;
+}
+.mright30 {
+    margin-right: 30px;
 }
 .intro h1 {
     margin-bottom: 10px;
     font-weight: 400;
     color: #033BFF;
-    font-size: 2rem;
+    font-size: 2.2rem;
 
 }
 .intro .input-group {
@@ -89,4 +98,9 @@ html,body {
     font-family: "Roboto";
     height: 42px;
     font-size: 0.8rem;
+}
+.intro-right {
+    max-width: 100%;
+    float: right;
+
 }
