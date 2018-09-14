@@ -1,0 +1,54 @@
+/*==============
+    parent rules
+===================*/
+html,body {
+    height: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;;
+    background-color: #FAFAFA;
+}
+/*==============
+  navbar rules 
+===============*/
+.navbar {
+    height: 60px;
+    margin: 0;
+    padding: 0 10px;
+    border: none;
+}
+.navbar .navbar-brand {
+    padding: 10px;
+}
+.nav-style {
+    font-weight: 400;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-nav>li>a {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #1B4EFE;
+}
+.navbar .nav .btn {
+    margin: 13px 0 13px 10px;
+}
+.btn-nav {
+    background-color: #fff;
+    border: solid 1px #fff;
+    color: #1B4EFE;
+    box-shadow: 3px 4px 11px 0px rgba(0,0,0,0.5);
+}
+.btn-nav-demo {
+        background-color: #f39c12;
+        border: solid 1px rgba(255,255,255,.5);
+        color: #fff;
+}
